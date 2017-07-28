@@ -1,7 +1,9 @@
 window.onload = function () {
+    // task_3
     let btnAddCar = document.getElementById("addCarButon")
     let searchCarButon = document.getElementById("searchCarButon")
     let list = document.getElementById('list')
+    // task_3
     alert(`Hi buddy, you have to buttons: "${btnAddCar.value}" and "${searchCarButon.value}"`)
     
     console.log(btnAddCar)
